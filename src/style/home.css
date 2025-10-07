@@ -76,6 +76,9 @@
 .bban{
     height: 410px;
     width: 100%;
+     background-size: cover; 
+       border-radius: 2px;
+ 
 }
 
 

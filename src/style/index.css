@@ -2,3 +2,77 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+/* ===== Menu Icon (Hidden on Desktop) ===== */
+/* ===== Base Navbar ===== */
+.nav {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* ===== Logo ===== */
+.logo img {
+  height: 70px;
+  width: 85px;
+  padding-left: 45px;
+}
+
+/* ===== Menu Icon (hidden on desktop) ===== */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: red;
+  cursor: pointer;
+}
+
+/* ===== Nav Links ===== */
+.links {
+  display: flex;
+  gap: 25px;
+}
+
+.links a {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: white;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* ✅ show menu icon on mobile */
+  }
+
+  .links {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .links.open {
+    height: 200px; /* ✅ expands when menu is open */
+  }
+
+  .links a {
+    margin: 10px 0;
+  }
+}
