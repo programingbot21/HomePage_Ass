@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Layout from './Layout';
 import Home from './Home';
 import Login from './Auth/Login';
+import Singup from './Auth/Singup';
 
 
 var router = createBrowserRouter([
@@ -21,6 +22,10 @@ var router = createBrowserRouter([
   {
     path: '/login',
     element: <Login/>
+  },
+  {
+    path: '/singup',
+    element: <Singup/>
   }
     ]
   },
