@@ -5,8 +5,7 @@ function Footer(){
         <>
         <div className="foo">
             <h1 className='heading'>CONTACT US</h1> 
-            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>ALWAYS HERE AT LSJKJ</p> */}
+        
             
                  <div className="pp"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>ALWAYS HERE AT LSJKJ</p></div>

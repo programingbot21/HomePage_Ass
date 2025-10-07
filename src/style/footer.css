@@ -17,12 +17,11 @@
   justify-content: center;
   align-items: center;
   font-size: 28px;
-  /* border: 2px solid red; */
-  /* padding-bottom: 50px; */
+ 
 }
 .pp{
   height: 60px;
-  /* border: 2px solid red; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,13 +31,13 @@
 
 .icon{
   display: flex;
-  /* flex-direction: column; */
+
   justify-content: space-evenly;
   align-items: center;
   height: 100px;
   width: 400px;
-  /* border: 2px solid red; */
+  
   padding-bottom: 19px;
-  /* padding-top: 30px; */
+  
 }
 
