@@ -1,12 +1,30 @@
-.par{
-    margin: 10px;
+ .parr{
+    height: auto;
+    width: auto;
+    padding: 1px;
     display: flex;
+   flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+} 
+
+.par{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+   
+ 
 }
 .card{
  
-    padding: 1px;
+    padding: 8px;
     height: 308px;
     width: 280px;
     /* border: 2px solid red; */
@@ -48,3 +66,23 @@
     text-decoration: none;
     border-radius: 6px;
 }
+
+.ban{
+    padding: 3px;
+    height: 420px;
+    width: 100%;
+    
+}
+.bban{
+    height: 410px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+

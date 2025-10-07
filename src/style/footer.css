@@ -1,0 +1,44 @@
+.foo{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:  250px;
+  width: auto;
+  /* border:  2px solid red; */
+  background-color: rgb(16, 16, 38);
+  color: white;
+}
+
+.heading{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  /* border: 2px solid red; */
+  /* padding-bottom: 50px; */
+}
+.pp{
+  height: 60px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+}
+
+.icon{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  /* border: 2px solid red; */
+  padding-bottom: 19px;
+  /* padding-top: 30px; */
+}
+

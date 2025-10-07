@@ -4,7 +4,7 @@ import './style/index.css'
 function Navbar(){
     return(
         <>
-        <div className="nav" style={{height: '100px', display: 'flex', justifyContent: 'space-evenly', alignItems:'center', backgroundColor:'navy'}}>
+        <div className="nav" style={{height: '100px', display: 'flex', justifyContent: 'space-evenly', alignItems:'center', backgroundColor:'black'}}>
             <div style={{height: '90px', width: '33.33%', display:'flex', justifyContent:'start', alignItems:'center',paddingLeft:'35px'}} className="box">
                 <img src="https://cdn-icons-png.flaticon.com/128/5506/5506613.png" style={{height: '80px', width: '95px'}} alt="" />
             </div>
